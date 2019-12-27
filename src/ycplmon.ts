@@ -1,4 +1,3 @@
-import { join as joinPath, sep as pathSep } from "path";
 import commander from "commander";
 import { dirname, join as joinPath, resolve as resolvePath, sep as pathSep } from "path";
 import fs, { Dirent, readFileSync, writeFileSync, Stats } from "fs";
