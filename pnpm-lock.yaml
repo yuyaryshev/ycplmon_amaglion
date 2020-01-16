@@ -34,262 +34,23 @@ dependencies:
   '@babel/template': registry.npmjs.org/@babel/template/7.7.4
   '@babel/traverse': registry.npmjs.org/@babel/traverse/7.7.4
   '@babel/types': registry.npmjs.org/@babel/types/7.7.4
-  babel-plugin-module-resolver: localhost+4873/babel-plugin-module-resolver/4.0.0
+  babel-plugin-module-resolver: 4.0.0
+  commander: 4.0.1
   typescript: registry.npmjs.org/typescript/3.7.4
 lockfileVersion: 5.1
 packages:
-  localhost+4873/babel-plugin-module-resolver/4.0.0:
-    dependencies:
-      find-babel-config: localhost+4873/find-babel-config/1.2.0
-      glob: localhost+4873/glob/7.1.6
-      pkg-up: localhost+4873/pkg-up/3.1.0
-      reselect: localhost+4873/reselect/4.0.0
-      resolve: localhost+4873/resolve/1.14.1
+  /babel-plugin-module-resolver/4.0.0:
     dev: false
     engines:
       node: '>= 8.0.0'
-    name: babel-plugin-module-resolver
     resolution:
       integrity: sha512-3pdEq3PXALilSJ6dnC4wMWr0AZixHRM4utpdpBR9g5QG7B7JwWyukQv7a9hVxkbGFl+nQbrHDqqQOIBtTXTP/Q==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/babel-plugin-module-resolver/-/babel-plugin-module-resolver-4.0.0.tgz'
-    version: 4.0.0
-  localhost+4873/balanced-match/1.0.0:
-    dev: false
-    name: balanced-match
-    resolution:
-      integrity: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/balanced-match/-/balanced-match-1.0.0.tgz'
-    version: 1.0.0
-  localhost+4873/brace-expansion/1.1.11:
-    dependencies:
-      balanced-match: localhost+4873/balanced-match/1.0.0
-      concat-map: localhost+4873/concat-map/0.0.1
-    dev: false
-    name: brace-expansion
-    resolution:
-      integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/brace-expansion/-/brace-expansion-1.1.11.tgz'
-    version: 1.1.11
-  localhost+4873/concat-map/0.0.1:
-    dev: false
-    name: concat-map
-    resolution:
-      integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/concat-map/-/concat-map-0.0.1.tgz'
-    version: 0.0.1
-  localhost+4873/find-babel-config/1.2.0:
-    dependencies:
-      json5: localhost+4873/json5/0.5.1
-      path-exists: localhost+4873/path-exists/3.0.0
+  /commander/4.0.1:
     dev: false
     engines:
-      node: '>=4.0.0'
-    name: find-babel-config
+      node: '>= 6'
     resolution:
-      integrity: sha512-jB2CHJeqy6a820ssiqwrKMeyC6nNdmrcgkKWJWmpoxpE8RKciYJXCcXRq1h2AzCo5I5BJeN2tkGEO3hLTuePRA==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/find-babel-config/-/find-babel-config-1.2.0.tgz'
-    version: 1.2.0
-  localhost+4873/find-up/3.0.0:
-    dependencies:
-      locate-path: localhost+4873/locate-path/3.0.0
-    dev: false
-    engines:
-      node: '>=6'
-    name: find-up
-    resolution:
-      integrity: sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/find-up/-/find-up-3.0.0.tgz'
-    version: 3.0.0
-  localhost+4873/fs.realpath/1.0.0:
-    dev: false
-    name: fs.realpath
-    resolution:
-      integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/fs.realpath/-/fs.realpath-1.0.0.tgz'
-    version: 1.0.0
-  localhost+4873/glob/7.1.6:
-    dependencies:
-      fs.realpath: localhost+4873/fs.realpath/1.0.0
-      inflight: localhost+4873/inflight/1.0.6
-      inherits: localhost+4873/inherits/2.0.4
-      minimatch: localhost+4873/minimatch/3.0.4
-      once: localhost+4873/once/1.4.0
-      path-is-absolute: localhost+4873/path-is-absolute/1.0.1
-    dev: false
-    name: glob
-    resolution:
-      integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/glob/-/glob-7.1.6.tgz'
-    version: 7.1.6
-  localhost+4873/inflight/1.0.6:
-    dependencies:
-      once: localhost+4873/once/1.4.0
-      wrappy: localhost+4873/wrappy/1.0.2
-    dev: false
-    name: inflight
-    resolution:
-      integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/inflight/-/inflight-1.0.6.tgz'
-    version: 1.0.6
-  localhost+4873/inherits/2.0.4:
-    dev: false
-    name: inherits
-    resolution:
-      integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/inherits/-/inherits-2.0.4.tgz'
-    version: 2.0.4
-  localhost+4873/json5/0.5.1:
-    dev: false
-    hasBin: true
-    name: json5
-    resolution:
-      integrity: sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/json5/-/json5-0.5.1.tgz'
-    version: 0.5.1
-  localhost+4873/locate-path/3.0.0:
-    dependencies:
-      p-locate: localhost+4873/p-locate/3.0.0
-      path-exists: localhost+4873/path-exists/3.0.0
-    dev: false
-    engines:
-      node: '>=6'
-    name: locate-path
-    resolution:
-      integrity: sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/locate-path/-/locate-path-3.0.0.tgz'
-    version: 3.0.0
-  localhost+4873/minimatch/3.0.4:
-    dependencies:
-      brace-expansion: localhost+4873/brace-expansion/1.1.11
-    dev: false
-    name: minimatch
-    resolution:
-      integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/minimatch/-/minimatch-3.0.4.tgz'
-    version: 3.0.4
-  localhost+4873/once/1.4.0:
-    dependencies:
-      wrappy: localhost+4873/wrappy/1.0.2
-    dev: false
-    name: once
-    resolution:
-      integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/once/-/once-1.4.0.tgz'
-    version: 1.4.0
-  localhost+4873/p-limit/2.2.1:
-    dependencies:
-      p-try: localhost+4873/p-try/2.2.0
-    dev: false
-    engines:
-      node: '>=6'
-    name: p-limit
-    resolution:
-      integrity: sha512-85Tk+90UCVWvbDavCLKPOLC9vvY8OwEX/RtKF+/1OADJMVlFfEHOiMTPVyxg7mk/dKa+ipdHm0OUkTvCpMTuwg==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/p-limit/-/p-limit-2.2.1.tgz'
-    version: 2.2.1
-  localhost+4873/p-locate/3.0.0:
-    dependencies:
-      p-limit: localhost+4873/p-limit/2.2.1
-    dev: false
-    engines:
-      node: '>=6'
-    name: p-locate
-    resolution:
-      integrity: sha512-x+12w/To+4GFfgJhBEpiDcLozRJGegY+Ei7/z0tSLkMmxGZNybVMSfWj9aJn8Z5Fc7dBUNJOOVgPv2H7IwulSQ==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/p-locate/-/p-locate-3.0.0.tgz'
-    version: 3.0.0
-  localhost+4873/p-try/2.2.0:
-    dev: false
-    engines:
-      node: '>=6'
-    name: p-try
-    resolution:
-      integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/p-try/-/p-try-2.2.0.tgz'
-    version: 2.2.0
-  localhost+4873/path-exists/3.0.0:
-    dev: false
-    engines:
-      node: '>=4'
-    name: path-exists
-    resolution:
-      integrity: sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/path-exists/-/path-exists-3.0.0.tgz'
-    version: 3.0.0
-  localhost+4873/path-is-absolute/1.0.1:
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    name: path-is-absolute
-    resolution:
-      integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/path-is-absolute/-/path-is-absolute-1.0.1.tgz'
-    version: 1.0.1
-  localhost+4873/path-parse/1.0.6:
-    dev: false
-    name: path-parse
-    resolution:
-      integrity: sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/path-parse/-/path-parse-1.0.6.tgz'
-    version: 1.0.6
-  localhost+4873/pkg-up/3.1.0:
-    dependencies:
-      find-up: localhost+4873/find-up/3.0.0
-    dev: false
-    engines:
-      node: '>=8'
-    name: pkg-up
-    resolution:
-      integrity: sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/pkg-up/-/pkg-up-3.1.0.tgz'
-    version: 3.1.0
-  localhost+4873/reselect/4.0.0:
-    dev: false
-    name: reselect
-    resolution:
-      integrity: sha512-qUgANli03jjAyGlnbYVAV5vvnOmJnODyABz51RdBN7M4WaVu8mecZWgyQNkG8Yqe3KRGRt0l4K4B3XVEULC4CA==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/reselect/-/reselect-4.0.0.tgz'
-    version: 4.0.0
-  localhost+4873/resolve/1.14.1:
-    dependencies:
-      path-parse: localhost+4873/path-parse/1.0.6
-    dev: false
-    name: resolve
-    resolution:
-      integrity: sha512-fn5Wobh4cxbLzuHaE+nphztHy43/b++4M6SsGFC2gB8uYwf0C8LcarfCz1un7UTW8OFQg9iNjZ4xpcFVGebDPg==
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/resolve/-/resolve-1.14.1.tgz'
-    version: 1.14.1
-  localhost+4873/wrappy/1.0.2:
-    dev: false
-    name: wrappy
-    resolution:
-      integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
-      registry: 'http://localhost:4873/'
-      tarball: 'http://localhost:4873/wrappy/-/wrappy-1.0.2.tgz'
-    version: 1.0.2
+      integrity: sha512-IPF4ouhCP+qdlcmCedhxX4xiGBPyigb8v5NeUp+0LyhwLgxMqyp3S0vl7TAPfS/hiP7FC3caI/PB9lTmP8r1NA==
   registry.npmjs.org/@babel/cli/7.7.7_@babel+core@7.7.7:
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core/7.7.7
@@ -4140,4 +3901,5 @@ specifiers:
   '@babel/traverse': ^7.7.4
   '@babel/types': ^7.7.4
   babel-plugin-module-resolver: ^4.0.0
+  commander: ^4.0.1
   typescript: ^3.7.3

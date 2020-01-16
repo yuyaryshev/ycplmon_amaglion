@@ -5,6 +5,6 @@ set my_path=%~dp0
 %my_drive%
 cd %my_path%
 rmdir ts_out /s /q
-npm run watch
+start C:\Windows\System32\cmd.exe /k watch_src.bat
 
 

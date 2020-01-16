@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "cls && rmdir ts_out\\src /s /q&& babel src --config-file ./babel.ut.config.js --out-dir ts_out\\src --extensions \".ts,.tsx\" --source-maps inline -w"
+    "watch": "cls && babel src --config-file ./babel.ut.config.js --out-dir ts_out\\src --extensions \".ts,.tsx\" --source-maps inline -w"
   },
   "author": "Yuri Yaryshev",
   "license": "MIT",
@@ -49,6 +49,7 @@
     "@babel/traverse": "^7.7.4",
     "@babel/types": "^7.7.4",
     "babel-plugin-module-resolver": "^4.0.0",
+    "commander": "^4.0.1",
     "typescript": "^3.7.3"
   }
 }
