@@ -165,7 +165,7 @@ const startup = (settings: Settings) => {
     let totalFixes = 0;
 
     const fileFilter = (filePath: string): boolean => {
-        if (!filePath.endsWith(".ts") && !filePath.endsWith(".js")) return false;
+        if (!filePath.endsWith(".ts") && !filePath.endsWith(".js") && !filePath.endsWith(".tsx") && !filePath.endsWith(".jsx") && !filePath.endsWith(".cjs") && !filePath.endsWith(".mjs") && !filePath.endsWith(".cts") && !filePath.endsWith(".mts")) return false;
         const parts = filePath.split(pathSep);
         if (parts.includes("node_modules") || parts.includes(".git")) return false;
         return true;
